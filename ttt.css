@@ -1,0 +1,54 @@
+
+.bc{
+    background-size: inherit;
+    display: grid;
+    grid-template-columns: 25% 400px 25%;
+    grid-template-rows:40% 400px 25%;
+}
+.gc{
+    background-color:black;
+    display:grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-rows: 33.33% 33.33% 33.33%;
+    margin: auto;
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+}
+.Ximg{
+    size: inherit;
+}
+.oimg{
+    size: inherit;
+}
+button{
+    width: 100%;
+    height: 100%; 
+}
+img{
+    height: 100%;
+}
+div{
+    display: inline-block;
+    padding: 5px;
+}
+#tb{
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px dashed Black;
+    margin-bottom: 10px;
+}
+#btb,#ytb{
+    margin: auto;
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+    border: 5px groove black;
+}
+.para{
+    text-align: center;
+    font-size:50px
+}
+#yname,#bname{
+    padding-left: 10%;
+}
